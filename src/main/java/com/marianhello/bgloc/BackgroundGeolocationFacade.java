@@ -73,8 +73,10 @@ public class BackgroundGeolocationFacade {
     private boolean mShouldStartService = false;
     private boolean mShouldStopService = false;
     private Config mNextConfiguration = null;
+
     private Integer mNextCommandID = null;
     private Integer mNextMode = null;
+
 
     private BackgroundLocation mStationaryLocation;
 
